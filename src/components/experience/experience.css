@@ -1,0 +1,28 @@
+.icon2{
+	width:22px;
+	height:max-content;
+	border-radius: 12px;
+}
+ .experience-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+.experience-box{
+	border: 1px solid var(--color-dark-variant);
+	border-radius: 30px;
+	padding: 24px;
+}
+.experience-box h2{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.experience{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+}
+.ex-div{
+	display:flex;
+	gap: 20px;
+}

@@ -1,0 +1,30 @@
+.contact-container{
+	max-width: 40rem;
+	padding: 28px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.email,.linkedin,.github{
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+	border: 1px solid var(--color-dark-variant);
+	margin: 5px;
+	padding: 7px;
+	border-radius: 6px;
+}
+.email a{
+	text-decoration: none;
+	color: var(--color-black);
+}
+.linkedin a{
+	text-decoration: none;
+	color: var(--color-black);
+}
+.github a{
+	text-decoration: none;
+	color: var(--color-black);
+}

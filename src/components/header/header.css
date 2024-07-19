@@ -1,0 +1,76 @@
+nav{
+	height:5rem;
+	position: fixed;
+	z-index: 1;
+	width:100%;
+	top:0;
+	left:0;
+	display:grid;
+	place-items: center;
+	background-color: var(--color-black);
+}
+.nav-container{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	height:100%;
+}
+.logo{
+	font-size: 28px;
+	color:var(--color-white);
+	text-decoration: none !important;
+}
+.nav__links{
+	display: flex;
+	align-items: center;
+	gap:2rem;
+}
+.nav__links li{
+	list-style:none;
+	display: inline-block;
+	padding:10px;
+}
+.nav__links a{
+	text-decoration: none;
+	color:rgb(43, 41, 41);
+	color:var(--color-white);
+} 
+
+/* ------------------header---------------- */
+header{
+	padding-top: 10rem;
+}
+.header_container{
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	max-width: 820px;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+}
+.header_right{
+	text-align: center;
+	margin:0 auto ;
+} 
+.My_photo1{
+	width: 400px;
+	border-radius: 200px;
+}
+.header-right p{
+	color: var(--color-dark-variant);
+}
+.header-right h2{
+	margin-top: .4rem;
+}
+.header_action_aria{
+	margin-top: 1rem;
+	display:flex;
+	gap:.7rem;
+	justify-content: center;
+}
+.header-social{
+	margin: .7rem auto;
+	display:flex;
+	gap:.8rem;
+	justify-content: center;
+}

@@ -1,0 +1,10 @@
+div .footer{
+	display:flex;
+	justify-content: center;
+}
+
+.footer p{
+	padding: 17px;
+	position: fixed;
+	bottom: 0;
+}
